@@ -19,10 +19,10 @@ export default function Reference() {
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                Food Reference
+                Games Reference
               </h2>
               <p className="leading-relaxed text-base">
-                Food Reference on this MMO Games Application is using
+                Game Reference on this MMO Games Application is using
                 Wikipedia.
               </p>
             </div>
@@ -50,8 +50,7 @@ export default function Reference() {
                 API Reference
               </h2>
               <p className="leading-relaxed text-base">
-                API or Application Programming Interface on this Low Carb
-                Recipes is using RAPID API.
+                API or Application Programming Interface on this MMO Games is using RAPID API.
               </p>
             </div>
           </div>

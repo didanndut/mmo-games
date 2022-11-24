@@ -1,8 +1,8 @@
+import Image from "next/image";
 import Meta from "../components/Meta";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Image from "next/image";
-import icon from "../public/assets/apple-icon.png";
+import profile from "../public/assets/foto-profile-ppb.png";
 
 export default function About() {
   return (
@@ -18,7 +18,7 @@ export default function About() {
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-20">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                   <Image
-                    src={icon}
+                    src={profile}
                     alt="profile"
                     className="rounded-full"
                     width="100%"
@@ -40,16 +40,14 @@ export default function About() {
                 <p className="leading-relaxed text-lg mb-4">
                   Hello! I am Didan Hasan Murtaqi, an undergraduate student in
                   Computer Engineering, Diponegoro University. I am someone who
-                  is enthusiastic about trying new challenges, quite experienced
-                  and has an interest in UI/UX Design and Research. I like to
-                  communicate with people and I have experienced in
+                  is enthusiastic about MMO Games, quite experienced
+                  and has an interest in UI/UX design. I like to
+                  communicate with people Through online MMO games and I have experienced in
                   organizations.
                 </p>
 
                 <p className="leading-relaxed text-lg mb-4">
-                  MMO Games is an application that contains food recipes
-                  and how to cook delicious food with healthy nutrition and low
-                  carbohydrate calories. This application was developed using
+                  MMO Games is an application that contains about MMO games in multiplatform. This application was developed using
                   next.js with the best practices that I have learned. Apart
                   from that, this application is also deployed using Vercel.
                 </p>
