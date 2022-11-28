@@ -13,12 +13,12 @@ export default function Footer() {
         
            
            
-            <h1 className="ml-2">Games</h1>
+            <h1 className="ml-2">Games News</h1>
             
          
           </Link>
           <Link href="/reference" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
-              <h1 className="ml-2">Reference</h1>
+              <h1 className="ml-2">Techstack</h1>
             
          
           </Link>
