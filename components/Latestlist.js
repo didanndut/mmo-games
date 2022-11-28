@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Card from "../components/Card";
+import Cardlatest from "./Cardlatest";
 
 const options = {
   method: "GET",
@@ -9,7 +9,7 @@ const options = {
   },
 };
 
-export default function List() {
+export default function Latestlist() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export default function List() {
           {data === null ? (
             <p className="mx-auto text-center font-bold mt-4">Loading...</p>
           ) : (
-            data.map((item, index) => <Card key={index} data={item} />)
+            data.map((item, index) => <Cardlatest key={index} data={item} />)
           )}
         </div>
       </div>

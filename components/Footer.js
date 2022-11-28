@@ -33,11 +33,11 @@ export default function Footer() {
          
           </Link>
           
-          <Link href="/" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
+          <Link href="latest" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
         
            
            
-            <h1 className="ml-2">Games</h1>
+            <h1 className="ml-2">Latest Game</h1>
             
          
           </Link>
