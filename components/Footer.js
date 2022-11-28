@@ -1,35 +1,41 @@
+import Link from "next/link";
+import Image from "next/image";
+import apple_icon from "../public/assets/apple-icon.png";
+
 export default function Footer() {
-    return (
-      <footer className="text-gray-600 body-font">
-        <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <p className="text-sm text-gray-500 sm:py-2 sm:mt-0 mt-4">
-            © 2022 MMO Games —
-            <a
-              href="https://instagram.com/ovrwght"
-              className="text-gray-600 ml-1"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              @ovrwght
-            </a>
-          </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a href="https://instagram.com/ovrwght" className="text-gray-500">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-          </span>
+  return (
+
+<footer class="sticky bottom-0 text-gray-600 body-font z-50 bg-amber-100">
+      <div class="container px-3 py-6 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        
+        <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
+          <Link href="/" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
+        
+           
+           
+            <h1 className="ml-2">Games</h1>
+            
+         
+          </Link>
+          <Link href="/reference" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
+              <h1 className="ml-2">Reference</h1>
+            
+         
+          </Link>
+          <Link href="/faq" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0 " >
+              <h1 className="ml-2">FAQ </h1>
+            
+         
+          </Link>
+          <Link href="/about" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
+               <h1 className="ml-2">About </h1>
+            
+         
+          </Link>
         </div>
-      </footer>
-    );
-  }
+      </div>
+    
+      
+    </footer>
+  );
+}

@@ -31,19 +31,15 @@ export default function About() {
                   </h2>
                   <div className="w-12 h-1 bg-green-500 rounded mt-2 mb-4"></div>
                   <p className="text-base">
-                    An undergraduate student of Computer Engineering, Diponegoro
-                    University.
+                    Game Enthusiast.
                   </p>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
-                  Hello! I am Didan Hasan Murtaqi, an undergraduate student in
-                  Computer Engineering, Diponegoro University. I am someone who
-                  is enthusiastic about MMO Games, quite experienced
-                  and has an interest in UI/UX design. I like to
-                  communicate with people Through online MMO games and I have experienced in
-                  organizations.
+                  Wassup I am Didan Hasan Murtaqi. I am someone who
+                  is enthusiastic about MMO Games, has an interest in MMO Games. I like to
+                  communicate with people Through online MMO games.
                 </p>
 
                 <p className="leading-relaxed text-lg mb-4">
