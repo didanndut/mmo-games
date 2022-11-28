@@ -28,7 +28,7 @@ export default function Footer() {
          
           </Link>
           <Link href="/about" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
-               <h1 className="ml-2">About </h1>
+               <h1 className="ml-2">About Me </h1>
             
          
           </Link>
